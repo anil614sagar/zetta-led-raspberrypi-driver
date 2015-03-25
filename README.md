@@ -17,6 +17,6 @@ var zetta = require('zetta');
 var LED = require('zetta-led-raspberrypi-driver');
 
 zetta()
-  .use(LED,7)
+  .use(LED,7) // User LED on GPIO Pin 7
   .listen(1337);
 ```
